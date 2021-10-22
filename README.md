@@ -51,6 +51,8 @@ GWD.GetDataDB(string Serch_Keyword);
 <img src=https://user-images.githubusercontent.com/90036120/138433307-77820009-bf95-4c38-ab03-c8702c23831e.JPG width="700" height="330"/>.
 
 
+
+##### Please protect ico. It's mine
 ************************************************************************************
 
 FirstName, LastName, Name을 추후 검색할 때 유용할 것 같아서 각각 추가했습니다.    
