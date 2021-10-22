@@ -44,6 +44,10 @@ GWD.DeleteDB();
 ```
 GWD.GetDataDB(string Serch_Keyword);
 ```
+
+### Img
+<img src=https://user-images.githubusercontent.com/90036120/138431294-30a94cd4-6a03-4afb-be3c-328cbd915230.JPG width="900" height="450"/>.
+
 ************************************************************************************
 
 FirstName, LastName, Name을 추후 검색할 때 유용할 것 같아서 각각 추가했습니다.
