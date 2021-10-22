@@ -4,8 +4,8 @@
 ## ClaseName => GridWithDB
 
 * Columns : No, Name, Birth, Age, Address, Description, FirstName, LastName    
-Ex)
 ```
+Ex)
  public partial class Form1 : Form
  {  GridWithDB GWD = new GridWithDB("localhost", "3306", "test", "root", "1234"); } // Server detail set
 OR  GridWithDB GWD = new GridWithDB(); //Default Value => "localhost", "3306", "test", "root", "1234"
