@@ -30,7 +30,7 @@ GWD.GetDataDB();
 
 ### Update
 ```
-GWD.UpdateDB(NoNumber(PrimaryKey)_you_choose, Name, BirthDay, CusAge, Address.Text, Description.Text, FirstName.Text, LastName.Text, Where to Update NO.));
+GWD.UpdateDB(NoNumber(PrimaryKey)_you_choose, Name, BirthDay, CusAge, Address.Text, Description.Text, FirstName.Text, LastName.Text, Where to Update PrimaryKey.));
 
 Ex) GWD.UpdateDB(Convert.ToInt32(textBox1.Text), Name1, BirthDay, CusAge, Address.Text, Description.Text, FirstName.Text, LastName.Text, Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value));
 ```
