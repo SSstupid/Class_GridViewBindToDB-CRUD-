@@ -64,3 +64,4 @@ C:\Users\rlawo\source\repos\ClassCustomerList_DB\CustomerList_DB\obj\Debug\Custo
 C:\Users\rlawo\source\repos\ClassCustomerList_DB\CustomerList_DB\obj\Debug\CustomerList_DB.csproj.CopyComplete
 C:\Users\rlawo\source\repos\ClassCustomerList_DB\CustomerList_DB\obj\Debug\CustomerList_DB.exe
 C:\Users\rlawo\source\repos\ClassCustomerList_DB\CustomerList_DB\obj\Debug\CustomerList_DB.pdb
+C:\Users\rlawo\source\repos\ClassCustomerList_DB\CustomerList_DB\obj\Debug\CustomerList_DB.Form2.resources

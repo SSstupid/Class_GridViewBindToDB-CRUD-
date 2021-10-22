@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data;
-using MySql.Data.MySqlClient;
-using System.Data.SqlClient;
-using System.Globalization;
-using System.Threading;
 
 namespace CustomerList_DB
 {
@@ -22,7 +10,6 @@ namespace CustomerList_DB
         string Name1;
 
         GridWithDB GWD = new GridWithDB("localhost", "3306", "test", "root", "1234");
-
 
         public Form1()
         {
@@ -128,6 +115,11 @@ namespace CustomerList_DB
         public int Age(DateTime Birthday)
         {
             return DateTime.Now.Year - Birthday.Year - (Birthday.DayOfYear < DateTime.Now.DayOfYear ? 0 : 1);
+        }
+
+        private void contectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form2().ShowDialog();
         }
     }
 }

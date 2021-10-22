@@ -29,6 +29,7 @@ namespace CustomerList_DB
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.SaveIf = new System.Windows.Forms.Button();
             this.FirstName = new System.Windows.Forms.TextBox();
@@ -47,11 +48,14 @@ namespace CustomerList_DB
             this.NoLa = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.contectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -60,13 +64,13 @@ namespace CustomerList_DB
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 31);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(781, 587);
+            this.dataGridView1.Size = new System.Drawing.Size(781, 567);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.Click += new System.EventHandler(this.dataGridView1_Click);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
@@ -92,7 +96,7 @@ namespace CustomerList_DB
             // 
             this.FirstName1.AutoSize = true;
             this.FirstName1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FirstName1.Location = new System.Drawing.Point(17, 81);
+            this.FirstName1.Location = new System.Drawing.Point(16, 81);
             this.FirstName1.Name = "FirstName1";
             this.FirstName1.Size = new System.Drawing.Size(87, 20);
             this.FirstName1.TabIndex = 4;
@@ -112,7 +116,7 @@ namespace CustomerList_DB
             // 
             this.Birth1.AutoSize = true;
             this.Birth1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Birth1.Location = new System.Drawing.Point(17, 115);
+            this.Birth1.Location = new System.Drawing.Point(16, 115);
             this.Birth1.Name = "Birth1";
             this.Birth1.Size = new System.Drawing.Size(71, 20);
             this.Birth1.TabIndex = 6;
@@ -179,7 +183,7 @@ namespace CustomerList_DB
             // 
             // DeleteDB
             // 
-            this.DeleteDB.Location = new System.Drawing.Point(234, 538);
+            this.DeleteDB.Location = new System.Drawing.Point(234, 530);
             this.DeleteDB.Name = "DeleteDB";
             this.DeleteDB.Size = new System.Drawing.Size(75, 26);
             this.DeleteDB.TabIndex = 12;
@@ -189,7 +193,7 @@ namespace CustomerList_DB
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(117, 538);
+            this.button2.Location = new System.Drawing.Point(117, 530);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 26);
             this.button2.TabIndex = 13;
@@ -201,7 +205,7 @@ namespace CustomerList_DB
             // 
             this.NoLa.AutoSize = true;
             this.NoLa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoLa.Location = new System.Drawing.Point(17, 48);
+            this.NoLa.Location = new System.Drawing.Point(16, 48);
             this.NoLa.Name = "NoLa";
             this.NoLa.Size = new System.Drawing.Size(40, 20);
             this.NoLa.TabIndex = 14;
@@ -219,24 +223,11 @@ namespace CustomerList_DB
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(17, 6);
+            this.textBox2.Location = new System.Drawing.Point(16, 6);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(239, 28);
             this.textBox2.TabIndex = 16;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Image = global::CustomerList_DB.Properties.Resources.img;
-            this.pictureBox1.Location = new System.Drawing.Point(257, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panel1
             // 
@@ -258,27 +249,65 @@ namespace CustomerList_DB
             this.panel1.Controls.Add(this.FirstName1);
             this.panel1.Controls.Add(this.FirstName);
             this.panel1.Controls.Add(this.SaveIf);
-            this.panel1.Location = new System.Drawing.Point(787, 7);
+            this.panel1.Location = new System.Drawing.Point(788, 31);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(435, 580);
+            this.panel1.Size = new System.Drawing.Size(435, 567);
             this.panel1.TabIndex = 18;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.Image = global::CustomerList_DB.Properties.Resources.img;
+            this.pictureBox1.Location = new System.Drawing.Point(257, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.contectToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1223, 31);
+            this.menuStrip1.TabIndex = 19;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // contectToolStripMenuItem
+            // 
+            this.contectToolStripMenuItem.Font = new System.Drawing.Font("맑은 고딕", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contectToolStripMenuItem.Name = "contectToolStripMenuItem";
+            this.contectToolStripMenuItem.Size = new System.Drawing.Size(84, 27);
+            this.contectToolStripMenuItem.Text = "Contact";
+            this.contectToolStripMenuItem.Click += new System.EventHandler(this.contectToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1223, 587);
+            this.ClientSize = new System.Drawing.Size(1223, 598);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "CusListDB";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dataGridView1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -302,8 +331,10 @@ namespace CustomerList_DB
         private System.Windows.Forms.Label NoLa;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem contectToolStripMenuItem;
     }
 }
 
