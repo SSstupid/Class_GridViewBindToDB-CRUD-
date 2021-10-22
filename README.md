@@ -3,7 +3,7 @@
 
 ## ClaseName => GridWithDB
 
-Columns : No, Name, Birth, Age, Address, Description, FirstName, LastName
+* Columns : No, Name, Birth, Age, Address, Description, FirstName, LastName
 Ex)
 ```
  public partial class Form1 : Form
@@ -47,6 +47,9 @@ GWD.GetDataDB(string Serch_Keyword);
 
 ### Img
 <img src=https://user-images.githubusercontent.com/90036120/138431294-30a94cd4-6a03-4afb-be3c-328cbd915230.JPG width="900" height="450"/>.
+*****************
+<img src=https://user-images.githubusercontent.com/90036120/138433307-77820009-bf95-4c38-ab03-c8702c23831e.JPG width="700" height="330"/>.
+
 
 ************************************************************************************
 
