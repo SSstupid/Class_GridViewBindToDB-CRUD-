@@ -46,11 +46,18 @@ namespace CustomerList_DB
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            GWD.SetGridTable(dataGridView1, "cuslist");
-            GWD.GetDataDB();
-            dataGridView1.Columns[2].DefaultCellStyle.Format = "dd/MM/yyyy";
-            textBox2.AutoSize = false;
-            textBox2.Size = new System.Drawing.Size(180, 28);
+            try
+            {
+                GWD.SetGridTable(dataGridView1, "cuslist");
+                GWD.GetDataDB();
+                dataGridView1.Columns[2].DefaultCellStyle.Format = "dd/MM/yyyy";
+                textBox2.AutoSize = false;
+                textBox2.Size = new System.Drawing.Size(180, 28);
+            }
+            catch 
+            {
+                MessageBox.Show("The server connection fail.");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

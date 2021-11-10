@@ -261,7 +261,7 @@ namespace CustomerList_DB
             this.pictureBox1.Image = global::CustomerList_DB.Properties.Resources.img;
             this.pictureBox1.Location = new System.Drawing.Point(257, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 33);
+            this.pictureBox1.Size = new System.Drawing.Size(40, 28);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
